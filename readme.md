@@ -1,3 +1,7 @@
+### Warning
+Due to the architecture of Java function app, please ensure the `pom.xml -> project -> properties -> functionAppName`
+field matches your Azure Functions name on the cloud when using deployment center GitHub action.
+
 ### Intention
 
 1. Check if functions project can be deployed successfully
